@@ -28,7 +28,7 @@ p {
 }
 
 button {
-  background: rgb(2, 105, 76);;
+  background: rgb(0, 129, 96);;
   color: white;
   padding: 12px 24px;
   border-radius: 20px;
@@ -48,9 +48,10 @@ button:active {
 
 #mainContainer {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.5s ease;
 }
 
 .insideContainer {
