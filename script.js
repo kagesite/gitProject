@@ -1,4 +1,5 @@
 let mainContainer = document.getElementById('mainContainer');
+let insideContainer = document.getElementsByClassName('insideContainer')
 const color = ['#008160', '#eee', '#bcbcbc', '#5b5b5b', '#1a1a1a', '#fff']
 let i = 0;
 
